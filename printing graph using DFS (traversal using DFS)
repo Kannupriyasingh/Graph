@@ -55,6 +55,7 @@ int main()
         int start, end;
         cin >> start >> end;
         arr[start][end] = 1;  //marking the edge 
+        arr[end][start] = 1;
     }
     
     bool *visited = new bool[n];
