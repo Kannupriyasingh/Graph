@@ -67,7 +67,7 @@ int main()
     
     
      //we have to check, is there any vertex which is not yet visited(in case of disconnected graph)
-    for(int i=0;i<n;i++)
+    for(int i = 0; i < n; i++)
         if(!visited[i])
     		print(arr, n, e, i, visited);
     
